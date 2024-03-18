@@ -1,0 +1,1 @@
+document.querySelectorAll(".img-wrapper").forEach(e=>{e.onclick=function(){e.classList.toggle("selected")}});

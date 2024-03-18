@@ -1,0 +1,23 @@
+{
+  "name": "photo-assigment",
+  "version": "1.0.0",
+  "description": "photo assignment",
+  "main": "index.js",
+  "devDependencies": {
+    "bootstrap": "^5.0.2",
+    "grunt": "^1.6.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-nodeunit": "^5.0.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "sass": "^1.72.0"
+  },
+  "scripts": {
+    "compile:sass": "sass ./style.scss ./style.css -w"
+  },
+  "author": "adesantos",
+  "license": "ISC"
+}
