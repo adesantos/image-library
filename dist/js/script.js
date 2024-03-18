@@ -1,1 +1,5 @@
-document.querySelectorAll(".img-wrapper").forEach(e=>{e.onclick=function(){e.classList.toggle("selected")}});
+document.querySelectorAll(".img-wrapper").forEach((img) => {
+  img.onclick = function () {
+    img.classList.toggle("selected");
+  };
+});
